@@ -31,10 +31,14 @@ string_2 = "place"
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 input
--------------------
+'''wefwefwefwefe'''
 name = raw_input("What is your name? ") <-- raw_input let the user type an input
 quest = raw_input("What is your quest? ")
 color = raw_input("What is your favorite color? ")
 
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
+
+my_string = raw_input ("What is you father\'s name?")
+print len(my_string)
+print my_string.upper()
